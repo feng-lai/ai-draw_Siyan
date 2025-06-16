@@ -1,6 +1,5 @@
 <template>
   <div class="editor-layout">
-    <!-- Top Navigation Bar -->
     <div class="top-nav">
       <div class="left-controls">
         <button class="home-button">
@@ -43,9 +42,7 @@
       </div>
     </div>
 
-    <!-- Main Editor Area -->
     <div class="editor-container">
-      <!-- Left Sidebar with Tool Icons -->
       <div class="icon-sidebar" :class="{ 'expanded': sidebarExpanded }">
         <button class="sidebar-toggle" @click="toggleSidebar">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
@@ -65,9 +62,18 @@
           </svg>
           <span>Txt2Img</span>
         </button>
+
+        <button class="icon-button" :class="{ active: activeTool === 'Edit Image' }"
+          @click="setActiveTool('Edit Image')">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 20h9" />
+            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+          </svg>
+          <span>EditImg</span>
+        </button>
       </div>
 
-      <!-- Tool Parameter Panel -->
       <div class="tool-panel" v-if="activeTool">
         <div class="tool-panel-header">
           <h3>{{ activeTool }}</h3>
@@ -80,7 +86,6 @@
           </button>
         </div>
 
-        <!-- Text to Image Panel -->
         <div class="tool-panel-content" v-if="activeTool === 'Text to Image'">
           <div class="model-selector">
             <div class="model-preview">
@@ -139,9 +144,65 @@
             <span class="credit-amount">4</span>
           </button>
         </div>
+
+        <div class="tool-panel-content" v-else-if="activeTool === 'Edit Image'">
+          <div class="model-selector">
+            <div class="model-preview">
+              <div class="model-icon">🤖</div>
+              <span>Gemini 2.0 Flash</span>
+            </div>
+          </div>
+
+          <div class="upload-area">
+            <input type="file" ref="imageUpload" @change="handleImageUpload" accept="image/*" style="display: none;">
+            <button class="upload-button" @click="triggerImageUpload">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 0 9H3a2 2 0 0 1 0-4h1v1Z"/>
+                <path d="M12 12v9"/>
+                <path d="m16 16-4-4-4 4"/>
+              </svg>
+              {{ uploadedImageName || 'Upload Image' }}
+            </button>
+            <div v-if="uploadedImagePreview" class="image-upload-preview">
+              <img :src="uploadedImagePreview" alt="Uploaded Image" />
+            </div>
+          </div>
+
+          <div class="prompt-area">
+            <textarea class="prompt-input" placeholder="描述你想如何编辑图片（支持20种语言）" v-model="editImagePrompt"
+              @keydown.ctrl.enter="editImage"></textarea>
+            <div class="prompt-counter">{{ editImagePrompt.length }} / 1800</div>
+
+            <div class="generation-status" v-if="isGenerating">
+              <div class="status-indicator">
+                <div class="spinner"></div>
+                <span>正在编辑图片...</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" :style="{ width: progress + '%' }"></div>
+              </div>
+            </div>
+
+            <div class="error-message" v-if="errorMessage">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="15" y1="9" x2="9" y2="15" />
+                <line x1="9" y1="9" x2="15" y2="15" />
+              </svg>
+              <span>{{ errorMessage }}</span>
+            </div>
+          </div>
+
+          <button class="generate-button" @click="editImage" :disabled="isGenerating || !editImagePrompt.trim() || !uploadedImageFile">
+            <span v-if="!isGenerating">Edit Image</span>
+            <span v-else>Editing...</span>
+            <span class="generate-label">AI</span>
+            <span class="credit-amount">4</span>
+          </button>
+        </div>
       </div>
 
-      <!-- Main Canvas Area -->
       <div class="canvas-area">
         <div class="canvas-content">
           <div v-if="!generatedImage && !isGenerating" class="canvas-placeholder">
@@ -165,7 +226,7 @@
                 <div class="spinner-ring"></div>
               </div>
               <h3>正在生成您的图片...</h3>
-              <p>{{ textToImagePrompt }}</p>
+              <p>{{ activeTool === 'Text to Image' ? textToImagePrompt : editImagePrompt }}</p>
             </div>
           </div>
 
@@ -204,6 +265,10 @@ import { ref, onMounted } from 'vue';
 const activeTool = ref('Text to Image');
 const sidebarExpanded = ref(false);
 const textToImagePrompt = ref('A red apple on a wooden table, photorealistic');
+const editImagePrompt = ref(''); // New state for edit image prompt
+const uploadedImageFile = ref(null); // New state for uploaded image file
+const uploadedImagePreview = ref(null); // New state for image preview
+const uploadedImageName = ref(''); // New state for uploaded image name
 const isGenerating = ref(false);
 const generatedImage = ref(null);
 const errorMessage = ref('');
@@ -213,6 +278,8 @@ const credits = ref(50);
 // API configuration
 const API_BASE_URL = '';
 
+// Refs for direct DOM access
+const imageUpload = ref(null);
 
 // Toggle sidebar
 const toggleSidebar = () => {
@@ -222,14 +289,49 @@ const toggleSidebar = () => {
 // Set active tool
 const setActiveTool = (tool) => {
   activeTool.value = tool;
+  // Clear generated image and prompt when switching tools
+  generatedImage.value = null;
+  errorMessage.value = '';
+  if (tool === 'Text to Image') {
+    editImagePrompt.value = '';
+    uploadedImageFile.value = null;
+    uploadedImagePreview.value = null;
+    uploadedImageName.value = '';
+  } else if (tool === 'Edit Image') {
+    textToImagePrompt.value = '';
+  }
 };
 
 // Close tool panel
 const closeTool = () => {
   activeTool.value = null;
+  generatedImage.value = null;
+  errorMessage.value = '';
 };
 
-// Generate image function
+// Handle image upload for Edit Image tool
+const triggerImageUpload = () => {
+  imageUpload.value.click();
+};
+
+const handleImageUpload = (event) => {
+  const file = event.target.files[0];
+  if (file) {
+    uploadedImageFile.value = file;
+    uploadedImageName.value = file.name;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      uploadedImagePreview.value = e.target.result;
+    };
+    reader.readAsDataURL(file);
+  } else {
+    uploadedImageFile.value = null;
+    uploadedImagePreview.value = null;
+    uploadedImageName.value = '';
+  }
+};
+
+// Generate image function (for Text to Image)
 const generateImage = async () => {
   if (!textToImagePrompt.value.trim() || isGenerating.value) {
     return;
@@ -240,7 +342,6 @@ const generateImage = async () => {
   progress.value = 0;
   generatedImage.value = null;
 
-  // Simulate progress
   const progressInterval = setInterval(() => {
     if (progress.value < 90) {
       progress.value += Math.random() * 10;
@@ -257,7 +358,7 @@ const generateImage = async () => {
         prompt: textToImagePrompt.value
       })
     });
-    
+
     const data = await response.json();
 
     if (response.ok && data.success) {
@@ -277,9 +378,59 @@ const generateImage = async () => {
   }
 };
 
-// Regenerate image
+// Edit image function (for Edit Image)
+const editImage = async () => {
+  if (!uploadedImageFile.value || !editImagePrompt.value.trim() || isGenerating.value) {
+    return;
+  }
+
+  isGenerating.value = true;
+  errorMessage.value = '';
+  progress.value = 0;
+  generatedImage.value = null;
+
+  const progressInterval = setInterval(() => {
+    if (progress.value < 90) {
+      progress.value += Math.random() * 10;
+    }
+  }, 500);
+
+  const formData = new FormData();
+  formData.append('image', uploadedImageFile.value);
+  formData.append('prompt', editImagePrompt.value);
+
+  try {
+    const response = await fetch(`/api/edit-image`, {
+      method: 'POST',
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (response.ok && data.success) {
+      generatedImage.value = `${API_BASE_URL}${data.imageUrl}`;
+      credits.value = Math.max(0, credits.value - 4); // Assuming editing also costs credits
+      progress.value = 100;
+    } else {
+      throw new Error(data.error || 'Image editing failed');
+    }
+  } catch (error) {
+    console.error('Error editing image:', error);
+    errorMessage.value = error.message || '编辑图片时发生错误，请重试';
+  } finally {
+    clearInterval(progressInterval);
+    isGenerating.value = false;
+    progress.value = 0;
+  }
+};
+
+// Regenerate image (based on active tool)
 const regenerateImage = () => {
-  generateImage();
+  if (activeTool.value === 'Text to Image') {
+    generateImage();
+  } else if (activeTool.value === 'Edit Image') {
+    editImage();
+  }
 };
 
 // Download image
@@ -719,6 +870,46 @@ onMounted(async () => {
   justify-content: center;
   font-size: 0.8rem;
 }
+
+/* Upload area specific styles */
+.upload-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.upload-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #333;
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.upload-button:hover {
+  background-color: #444;
+}
+
+.image-upload-preview {
+  max-width: 100%;
+  max-height: 200px;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #222;
+}
+
+.image-upload-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 
 /* Canvas Area */
 .canvas-area {
