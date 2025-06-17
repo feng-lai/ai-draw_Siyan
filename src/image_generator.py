@@ -89,9 +89,9 @@ def edit_image(input_image_path, prompt, output_path):
 
 
         response = client.models.generate_content(
-            model="gemini-1.5-flash-latest",
+            model="gemini-2.0-flash-preview-image-generation",
             contents=contents,
-            config=types.GenerateContentConfig(response_mime_type="image/jpeg",),
+            config=types.GenerateContentConfig(response_modalities=["IMAGE","TEXT"],),
             
         )
 
