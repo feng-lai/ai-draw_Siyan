@@ -6,8 +6,9 @@ import dashboard from '@/pages/dashboard.vue'
 import tool from '@/pages/tool.vue'
 import cn from '@/pages/index_cn.vue'
 import dashboard_cn from '@/pages/dashboard_cn.vue'
-
-
+import editor from '@/pages/ImageEditor.vue'
+import es from '@/pages/index_es.vue'
+import pt from '@/pages/index_pt.vue'
 
 
 Vue.use(VueRouter)
@@ -40,6 +41,21 @@ const routes = [
     path: '/cn',
     name: 'cn',
     component:cn
+  },
+  {
+    path: '/es',
+    name: 'es',
+    component:es
+  },
+  {
+    path: '/pt',
+    name: 'pt',
+    component:pt
+  },
+  {
+    path: '/editor',
+    name: 'editor',
+    component:editor
   },
   
 
