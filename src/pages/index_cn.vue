@@ -4,7 +4,7 @@
     <nav class="navbar">
       <div class="navbar-left">
         <a href="#" class="logo">
-          Siyan<span class="beta">BETA</span>
+          siyan<span class="beta">BETA</span>
         </a>
 
         <div class="nav-links">
@@ -88,7 +88,7 @@
               <div class="demo-container">
                 <div class="before-image">
                   <span class="tag">原图</span>
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/image-to-image.png" alt="Sketch">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-image.png" alt="Sketch">
                 </div>
                 <div class="transform-arrow">
                   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
@@ -100,7 +100,7 @@
                 </div>
                 <div class="after-image">
                   <span class="tag">生图</span>
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/image-to-image.png" alt="Generated Photo">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-image.png" alt="Generated Photo">
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@
                   </svg>
                 </div>
                 <div class="generated-image">
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/text-to-image.png" alt="Generated Food">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/text-to-image.png" alt="Generated Food">
                 </div>
               </div>
             </div>
@@ -151,10 +151,10 @@
             </div>
             <div class="tool-content">
               <div class="character-grid">
-                <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/consistent-character.png" alt="Character 1">
-                <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/consistent-character.png" alt="Character 2">
-                <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/consistent-character.png" alt="Character 3">
-                <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/consistent-character.png" alt="Character 4">
+                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png" alt="Character 1">
+                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png" alt="Character 2">
+                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png" alt="Character 3">
+                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png" alt="Character 4">
               </div>
             </div>
           </div>
@@ -173,7 +173,7 @@
             <div class="tool-content">
               <div class="video-demo">
                 <div class="video-preview">
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/image-to-video.png" alt="Video Preview">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-video.png" alt="Video Preview">
                   <div class="play-button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="white"
                       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -205,7 +205,7 @@
             <div class="tool-content">
               <div class="demo-container">
                 <div class="before-image">
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/insert-object.png" alt="Dog">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/insert-object.png" alt="Dog">
                 </div>
                 <div class="transform-arrow">
                   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
@@ -217,7 +217,7 @@
                 </div>
                 
                 <div class="after-image">
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/insert-object.png" alt="Dog with Hat">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/insert-object.png" alt="Dog with Hat">
                 </div>
               </div>
             </div>
@@ -235,7 +235,7 @@
             </div>
             <div class="tool-content">
               <div class="eraser-demo">
-                <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/ai-eraser.png" alt="Dog with Eraser">
+                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/ai-eraser.png" alt="Dog with Eraser">
                 <div class="eraser-circle">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -263,7 +263,7 @@
             </div>
             <div class="tool-content">
               <div class="expand-demo">
-                <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/expand.png" alt="Portrait">
+                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/expand.png" alt="Portrait">
                 <div class="expand-arrows">
                   <div class="arrow left">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -302,7 +302,7 @@
             <div class="tool-content">
               <div class="enhance-demo">
                 <div class="split-image">
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/enhance.png"
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/enhance.png"
                     alt="Pixelated vs Enhanced">
                   <div class="split-line"></div>
                 </div>
@@ -329,7 +329,7 @@
       <section class="feature-section">
         <div class="feature-container">
           <div class="feature-image">
-                        <video class="vi" poster="https://static.Siyan.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.Siyan.ai/videos/AI%2BPhoto%2BFilter1.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
+                        <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.dzine.ai/videos/AI%2BPhoto%2BFilter1.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
 
           </div>
           <div class="feature-content">
@@ -346,7 +346,7 @@
       <section class="feature-section feature-section-reverse">
         <div class="feature-container">
           <div class="feature-image feature-image-colored">
-            <video class="vi" poster="https://static.Siyan.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.Siyan.ai/videos/Combine+Images+with+AI.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
+            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.dzine.ai/videos/Combine+Images+with+AI.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI图像组合</h2>
@@ -363,7 +363,7 @@
       <section class="feature-section">
         <div class="feature-container">
           <div class="feature-image">
-            <video class="vi" poster="https://static.Siyan.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.Siyan.ai/videos/Remove+Background.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
+            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.dzine.ai/videos/Remove+Background.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI抠图</h2>
@@ -379,7 +379,7 @@
       <section class="feature-section feature-section-reverse">
         <div class="feature-container">
           <div class="feature-image feature-image-colored" style="--feature-bg-color: #D1C4E9;">
-            <video class="vi" poster="https://static.Siyan.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.Siyan.ai/videos/Remove+Background.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
+            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.dzine.ai/videos/Remove+Background.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI图像增强器</h2>
@@ -396,7 +396,7 @@
       <section class="feature-section">
         <div class="feature-container">
           <div class="feature-image">
-            <video class="vi" poster="https://static.Siyan.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.Siyan.ai/videos/text-effect-logo-1.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
+            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.dzine.ai/videos/text-effect-logo-1.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI文生图</h2>
@@ -413,7 +413,7 @@
       <section class="feature-section feature-section-reverse">
         <div class="feature-container">
           <div class="feature-image feature-image-colored" style="--feature-bg-color: #BBDEFB;">
-            <video class="vi" poster="https://static.Siyan.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.Siyan.ai/videos/generative-object-1.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
+            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.dzine.ai/videos/generative-object-1.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI图片扩展</h2>
@@ -656,7 +656,7 @@
         <div class="footer-top">
           <div class="footer-brand">
             <a href="#" class="footer-logo">
-              <span class="logo-text">Siyan</span>
+              <span class="logo-text">siyan</span>
               <span class="logo-beta">BETA</span>
             </a>
             <p class="footer-tagline">
@@ -782,7 +782,7 @@
         </div>
 
         <div class="footer-bottom">
-          <p class="copyright">Copyright © {{ new Date().getFullYear() }} Siyan</p>
+          <p class="copyright">Copyright © {{ new Date().getFullYear() }} siyan</p>
         </div>
       </div>
     </footer>
@@ -791,7 +791,7 @@
     <div class="modal-overlay" v-if="showLoginModal" @click="closeLoginModal"></div>
     <div class="login-modal" v-if="showLoginModal">
       <div class="modal-header">
-        <h3 class="modal-title">Log in to Siyan.ai</h3>
+        <h3 class="modal-title">Log in to siyan.ai</h3>
         <button class="modal-close" @click="showLoginModal = false">×</button>
       </div>
 
@@ -1037,9 +1037,9 @@ const tabs = ref([
     title: "生成动画角色",
     description: "借助AI辅助工具，设计师可以快速为动画和游戏创建和定制角色，包括将2D草图转换为动态3D角色。",
     images: [
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/character-design.png",
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/character-design.png",
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/character-design.png"
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/character-design.png",
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/character-design.png",
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/character-design.png"
     ]
   },
   {
@@ -1047,8 +1047,8 @@ const tabs = ref([
     title: "创建定制商品",
     description: "AI工具可以轻松地为按需印刷的产品（如t恤、马克杯和海报）设计定制图案、图形和艺术品，允许创作者在没有丰富的平面设计经验的情况下快速生成有市场的设计。",
     images: [
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/print-on-demand.png",
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/print-on-demand.png"
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/print-on-demand.png",
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/print-on-demand.png"
     ]
   },
   {
@@ -1056,9 +1056,9 @@ const tabs = ref([
     title: "专业产品展示",
     description: "试用背景替换，照明增强和构图工具将基本的产品照片转换为专业的营销海报，而无需昂贵的照片拍摄。",
     images: [
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/product-photography.png",
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/product-photography.png",
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/product-photography.png"
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/product-photography.png",
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/product-photography.png",
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/product-photography.png"
     ]
   },
   {
@@ -1066,8 +1066,8 @@ const tabs = ref([
     title: "创造游戏美术资源",
     description: "游戏开发者可以通过使用我们的工具来生成纹理、环境元素、角色概念和UI组件来加速制作。",
     images: [
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/game-design.png",
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/game-design.png"
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/game-design.png",
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/game-design.png"
     ]
   },
   {
@@ -1075,9 +1075,9 @@ const tabs = ref([
     title: "可视化室内空间",
     description: "室内设计师可以使用工具来可视化房间的变化，测试不同的配色方案、家具布置和设计元素。创建逼真的渲染空间从简单的草图或现有的照片。",
     images: [
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/room-design.png",
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/room-design.png",
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/room-design.png"
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/room-design.png",
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/room-design.png",
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/room-design.png"
     ]
   },
   {
@@ -1085,8 +1085,8 @@ const tabs = ref([
     title: "为营销提供视觉素材",
     description: "营销人员可以使用工具快速创建专业的社交媒体帖子、广告、横幅和促销材料。",
     images: [
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/logo-design.png",
-      "https://static.Siyan.ai/Siyan_config/neo-index/use-case/logo-design.png"
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/logo-design.png",
+      "https://static.dzine.ai/dzine_config/neo-index/use-case/logo-design.png"
     ]
   }
 ]);
