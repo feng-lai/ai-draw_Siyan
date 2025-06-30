@@ -147,7 +147,7 @@
             <div class="model-selector">
               <div class="model-preview">
                 <img src="https://placeholder.pics/svg/40x40/DEDEDE/555555-DEDEDE/FX" alt="FLUX.1" class="model-icon">
-                <span>Siyan General</span>
+                <span>siyan General</span>
               </div>
               <button class="model-toggle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
@@ -519,7 +519,7 @@
                   <label for="model-upload" class="upload-button model-button">3D Model</label>
                   <span class="file-types">.GLB, .GLTF, .OBJ, .3DS, .DAE, .KMZ, .FBX or .STL</span>
                 </div>
-                <div class="watermark">Siyan</div>
+                <div class="watermark">siyan</div>
               </div>
             </div>
           </div>
@@ -563,10 +563,10 @@
             </div>
           </div>
     
-          <!-- Siyan Assistant - Now collapsed by default, expands on click -->
+          <!-- siyan Assistant - Now collapsed by default, expands on click -->
           <div class="assistant-panel" :class="{ 'expanded': assistantExpanded }">
             <div class="assistant-header" @click="toggleAssistant">
-              <span>Siyan Assistant</span>
+              <span>siyan Assistant</span>
               <button class="minimize-button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path v-if="assistantExpanded" d="M18 15 12 9l-6 6"/>
@@ -588,7 +588,7 @@
                   </div>
                   <div class="option-content">
                     <h4>Join Discord</h4>
-                    <p>Join a vibrant community and interact with Siyan experts.</p>
+                    <p>Join a vibrant community and interact with siyan experts.</p>
                   </div>
                 </div>
     
@@ -608,7 +608,7 @@
                   </div>
                   <div class="option-content">
                     <h4>Prompt Assistant</h4>
-                    <p>Start chatting with our Siyan prompt assistant now!</p>
+                    <p>Start chatting with our siyan prompt assistant now!</p>
                   </div>
                 </div>
               </div>
