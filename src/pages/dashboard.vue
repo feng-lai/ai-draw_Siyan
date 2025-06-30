@@ -4,7 +4,7 @@
       <aside class="sidebar">
         <div class="sidebar-header">
           <a href="/" class="logo">
-            <img src="https://placeholder.pics/svg/120x40/333333/FFFFFF-333333/Siyan" alt="Siyan Logo" class="logo-img">
+            <img src="https://placeholder.pics/svg/120x40/333333/FFFFFF-333333/dzine" alt="siyan Logo" class="logo-img">
             <span class="beta-tag">BETA</span>
           </a>
         </div>
@@ -193,7 +193,7 @@
             </div>
             
             <div class="project-card">
-              <img src="https://static.Siyan.ai/stylar_product/p/16066503/canvas_thumbnail/1745466547022_KBaKj379_.webp" alt="Project thumbnail" class="project-thumbnail">
+              <img src="https://static.dzine.ai/stylar_product/p/16066503/canvas_thumbnail/1745466547022_KBaKj379_.webp" alt="Project thumbnail" class="project-thumbnail">
             </div>
           </div>
         </section>
@@ -216,14 +216,14 @@
               <div class="tool-demo">
                 <div class="before-image">
                   <span class="tag">Before</span>
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/image-to-image.png" alt="Before image">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-image.png" alt="Before image">
                 </div>
                 <div class="arrow">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="m10 14 11-11"/></svg>
                 </div>
                 <div class="after-image">
                   <span class="tag">After</span>
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/image-to-image.png" alt="After image">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-image.png" alt="After image">
                 </div>
               </div>
             </div>
@@ -243,7 +243,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6"/><path d="m10 14 11-11"/></svg>
                 </div>
                 <div class="generated-image">
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/text-to-image.png" alt="Generated food">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/text-to-image.png" alt="Generated food">
                 </div>
               </div>
             </div>
@@ -257,7 +257,7 @@
               </div>
               <div class="tool-demo">
                 <div class="character-grid">
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/consistent-character.png" alt="Character 1">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png" alt="Character 1">
                   </div>
               </div>
             </div>
@@ -272,7 +272,7 @@
               </div>
               <div class="tool-demo">
                 <div class="video-preview">
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/image-to-video.png" alt="Video preview">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-video.png" alt="Video preview">
                   <div class="play-button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="white"/></svg>
                   </div>
@@ -293,7 +293,7 @@
               </div>
               <div class="tool-demo">
                 <div class="video-preview">
-                  <img src="https://static.Siyan.ai/tools/dashboard/ai-tools-cover/image-to-video.png" alt="Lip sync preview">
+                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-video.png" alt="Lip sync preview">
                   <div class="play-button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="white"/></svg>
                   </div>
@@ -315,28 +315,28 @@
           <div class="tutorials-grid">
             <div class="tutorial-card">
               <div class="tutorial-image">
-                <img src="https://static.Siyan.ai/tools/dashboard/tutorials/quick-guide-beginner.webp" alt="Quick Guide for Beginners">
+                <img src="https://static.dzine.ai/tools/dashboard/tutorials/quick-guide-beginner.webp" alt="Quick Guide for Beginners">
               </div>
               <h3 class="tutorial-title">Quick Guide for Beginners</h3>
             </div>
             
             <div class="tutorial-card">
               <div class="tutorial-image">
-                <img src="https://static.Siyan.ai/tools/dashboard/tutorials/HowtoCC.webp" alt="How to Use Consistent Character">
+                <img src="https://static.dzine.ai/tools/dashboard/tutorials/HowtoCC.webp" alt="How to Use Consistent Character">
               </div>
               <h3 class="tutorial-title">How to Use Consistent Character</h3>
             </div>
             
             <div class="tutorial-card">
               <div class="tutorial-image">
-                <img src="https://static.Siyan.ai/tools/dashboard/tutorials/howto-i2i.webp" alt="How to Use Image-to-Image">
+                <img src="https://static.dzine.ai/tools/dashboard/tutorials/howto-i2i.webp" alt="How to Use Image-to-Image">
               </div>
               <h3 class="tutorial-title">How to Use Image-to-Image</h3>
             </div>
             
             <div class="tutorial-card">
               <div class="tutorial-image">
-                <img src="https://static.Siyan.ai/tools/dashboard/tutorials/How-to-Lip-sync.jpg" alt="How to Use Lip-Sync">
+                <img src="https://static.dzine.ai/tools/dashboard/tutorials/How-to-Lip-sync.jpg" alt="How to Use Lip-Sync">
               </div>
               <h3 class="tutorial-title">How to Use Lip-Sync</h3>
             </div>
@@ -354,7 +354,7 @@
             <div class="style-card">
               <div class="premium-badge">Premium</div>
               <div class="style-icon">
-                <img src="https://static.Siyan.ai/assets/panel-swap-bbdd2e37.svg" alt="Quick Style icon">
+                <img src="https://static.dzine.ai/assets/panel-swap-bbdd2e37.svg" alt="Quick Style icon">
               </div>
               <h3 class="style-title">Quick Style</h3>
             </div>
@@ -362,7 +362,7 @@
             <div class="style-card">
               <div class="premium-badge">Premium</div>
               <div class="style-icon">
-                <img src="https://static.Siyan.ai/assets/panel-traning-c1be96fb.svg" alt="Pro Style icon">
+                <img src="https://static.dzine.ai/assets/panel-traning-c1be96fb.svg" alt="Pro Style icon">
               </div>
               <h3 class="style-title">Pro Style</h3>
             </div>
@@ -381,14 +381,14 @@
           <div class="game-design-grid">
             <div class="game-design-card">
               <div class="card-image">
-                <img src="https://static.Siyan.ai/stylar_admin/common/style_avatar/1da5bf72ad4de3b90b4dea07e4477e9b/1727232343516960_Sketch-to-Image.webp" alt="Sketch to Art">
+                <img src="https://static.dzine.ai/stylar_admin/common/style_avatar/1da5bf72ad4de3b90b4dea07e4477e9b/1727232343516960_Sketch-to-Image.webp" alt="Sketch to Art">
               </div>
               <h3 class="card-title">Sketch to Art</h3>
             </div>
             
             <div class="game-design-card">
               <div class="card-image">
-                <img src="https://static.Siyan.ai/stylar_admin/common/style_avatar/02126553a93fc72efeb0d32415b05a9a/1727231459932384_2D-to-3D.webp" alt="2D to 3D Image">
+                <img src="https://static.dzine.ai/stylar_admin/common/style_avatar/02126553a93fc72efeb0d32415b05a9a/1727231459932384_2D-to-3D.webp" alt="2D to 3D Image">
               </div>
               <h3 class="card-title">2D to 3D Image</h3>
             </div>
@@ -396,7 +396,7 @@
             <div class="game-design-card">
               <div class="premium-badge">Premium</div>
               <div class="card-image">
-                <img src="https://static.Siyan.ai/stylar_admin/common/style_avatar/a2587147e2b990404086b4c61044ffe8/1727230427074993_Art-Reference.webp" alt="Art Reference">
+                <img src="https://static.dzine.ai/stylar_admin/common/style_avatar/a2587147e2b990404086b4c61044ffe8/1727230427074993_Art-Reference.webp" alt="Art Reference">
               </div>
               <h3 class="card-title">Art Reference</h3>
             </div>
@@ -404,14 +404,14 @@
             <div class="game-design-card">
               <div class="premium-badge">Premium</div>
               <div class="card-image">
-                <img src="https://static.Siyan.ai/stylar_admin/common/style_avatar/5649fcf0f49ae41a64dc6b2d20c3822d/1737013605836734_Prop-Refinement.webp" alt="Refine Details">
+                <img src="https://static.dzine.ai/stylar_admin/common/style_avatar/5649fcf0f49ae41a64dc6b2d20c3822d/1737013605836734_Prop-Refinement.webp" alt="Refine Details">
               </div>
               <h3 class="card-title">Refine Details</h3>
             </div>
             
             <div class="game-design-card">
               <div class="card-image">
-                <img src="https://static.Siyan.ai/stylar_admin/common/style_avatar/3a6e0e3e62693aeffe2e86d327711fb1/1737013737091523_20250116-154233.jpg.webp" alt="Generate from Text">
+                <img src="https://static.dzine.ai/stylar_admin/common/style_avatar/3a6e0e3e62693aeffe2e86d327711fb1/1737013737091523_20250116-154233.jpg.webp" alt="Generate from Text">
               </div>
               <h3 class="card-title">Generate from Text</h3>
             </div>
@@ -430,21 +430,21 @@
             <div class="photography-card">
               <div class="premium-badge">Premium</div>
               <div class="card-image">
-                <img src="https://static.Siyan.ai/stylar_admin/common/style_avatar/6b251bc0edff6070b3fdc652002c6d81/1727244858324979_Portrait-Enhance.webp" alt="Photography example 1">
+                <img src="https://static.dzine.ai/stylar_admin/common/style_avatar/6b251bc0edff6070b3fdc652002c6d81/1727244858324979_Portrait-Enhance.webp" alt="Photography example 1">
               </div>
             </div>
             
             <div class="photography-card">
               <div class="premium-badge">Premium</div>
               <div class="card-image">
-                <img src="https://static.Siyan.ai/stylar_admin/common/style_avatar/fe0de824c87bf5bb508e9c4298f1352d/1727244806410796_Remove-Object.webp" alt="Photography example 2">
+                <img src="https://static.dzine.ai/stylar_admin/common/style_avatar/fe0de824c87bf5bb508e9c4298f1352d/1727244806410796_Remove-Object.webp" alt="Photography example 2">
               </div>
             </div>
             
             <div class="photography-card">
               <div class="premium-badge">Premium</div>
               <div class="card-image">
-                <img src="https://static.Siyan.ai/stylar_admin/common/style_avatar/4016ad69b170cce555252456bb1dae35/1737013845114467_20250116-154242.jpg.webp" alt="Photography example 3">
+                <img src="https://static.dzine.ai/stylar_admin/common/style_avatar/4016ad69b170cce555252456bb1dae35/1737013845114467_20250116-154242.jpg.webp" alt="Photography example 3">
                 <div class="photo-tag">A black printed dress...</div>
               </div>
             </div>
@@ -452,14 +452,14 @@
             <div class="photography-card">
               <div class="premium-badge">Premium</div>
               <div class="card-image">
-                <img src="https://static.Siyan.ai/stylar_admin/common/style_avatar/15a6e098c2a4152114a743680a9de1c2/1727244565925145_Add-Object.webp" alt="Photography example 4">
+                <img src="https://static.dzine.ai/stylar_admin/common/style_avatar/15a6e098c2a4152114a743680a9de1c2/1727244565925145_Add-Object.webp" alt="Photography example 4">
               </div>
             </div>
             
             <div class="photography-card">
               <div class="premium-badge">Premium</div>
               <div class="card-image">
-                <img src="https://static.Siyan.ai/stylar_admin/common/style_avatar/0bbf0b77730d7f0191ecf6f5ba435dc6/1727244476338176_Model-Face-Swap.webp" alt="Photography example 5">
+                <img src="https://static.dzine.ai/stylar_admin/common/style_avatar/0bbf0b77730d7f0191ecf6f5ba435dc6/1727244476338176_Model-Face-Swap.webp" alt="Photography example 5">
               </div>
             </div>
             
@@ -478,15 +478,15 @@
   // Carousel data
   const carouselSlides = ref([
     { 
-      image: 'https://static.Siyan.ai/tools/dashboard/heros/Banner-cc.png', 
+      image: 'https://static.dzine.ai/tools/dashboard/heros/Banner-cc.png', 
       alt: 'Character in blue hoodie' 
     },
     { 
-      image: 'https://static.Siyan.ai/tools/dashboard/heros/Banner-cc.png', 
+      image: 'https://static.dzine.ai/tools/dashboard/heros/Banner-cc.png', 
       alt: 'Character playing tennis' 
     },
     { 
-      image: 'https://static.Siyan.ai/tools/dashboard/heros/lip-sync-Banner.png', 
+      image: 'https://static.dzine.ai/tools/dashboard/heros/lip-sync-Banner.png', 
       alt: 'Character swimming' 
     }
   ]);
