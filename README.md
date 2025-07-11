@@ -40,12 +40,6 @@ Transform your creative workflow with Siyan AI, the comprehensive solution for A
 - **Time Savings**: Reduce creation time from hours to minutes
 - **Cost Effective**: Replace multiple specialized tools
 
-## 💰 Simple Pricing
-| Plan        | Price       | Key Features                     |
-|-------------|-------------|----------------------------------|
-| **Basic**   | $19/month  | 5 daily generations, basic tools |
-| **Pro**     | $49/month  | 50 daily generations, all tools  |
-| **Enterprise** | Custom   | Unlimited generations + API access |
 
 > **Special Offer**: Use code `APRIL25` for 25% off your first payment!
 
