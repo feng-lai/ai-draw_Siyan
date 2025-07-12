@@ -3,7 +3,7 @@
       <nav class="navbar">
         <div class="navbar-left">
           <a href="#" class="logo">
-            S<span style="color: yellow;">i</span>yan<span class="beta">BETA</span>
+            S<span style="color: yellow;font-weight: bolder;">i</span>yan<span class="beta">BETA</span>
           </a>
   
           <div class="nav-links">
@@ -686,7 +686,7 @@
           <div class="footer-top">
             <div class="footer-brand">
               <a href="#" class="footer-logo">
-                <span class="logo-text">Si<span style="color: yellow;">y</span>an</span>
+                <span class="logo-text">Si<span style="color: yellow;font-weight: bolder;">y</span>an</span>
                 <span class="logo-beta">BETA</span>
               </a>
               <p class="footer-tagline">

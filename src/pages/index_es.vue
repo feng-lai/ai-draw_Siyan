@@ -3,7 +3,7 @@
     <nav class="navbar">
       <div class="navbar-left">
         <a href="#" class="logo">
-          S<span style="color: yellow;">i</span>yan<span class="beta">BETA</span>
+          S<span style="color: yellow;font-weight: bolder;">i</span>yan<span class="beta">BETA</span>
         </a>
 
         <div class="nav-links">
