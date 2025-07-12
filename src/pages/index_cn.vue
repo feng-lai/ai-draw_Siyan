@@ -3,7 +3,7 @@
     <nav class="navbar">
       <div class="navbar-left">
         <a href="#" class="logo">
-          siyan<span class="beta">BETA</span>
+          Siyan<span class="beta">BETA</span>
         </a>
 
         <div class="nav-links">
@@ -105,7 +105,7 @@
               <div class="demo-container">
                 <div class="before-image">
                   <span class="tag">之前</span>
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-image.png" alt="Sketch">
+                  <img src="/downloaded_images/f6d25e5fbd4162f138ef5ab5ec9429b3.png" alt="Sketch">
                 </div>
                 <div class="transform-arrow">
                   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
@@ -117,7 +117,7 @@
                 </div>
                 <div class="after-image">
                   <span class="tag">之后</span>
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-image.png"
+                  <img src="/downloaded_images/f6d25e5fbd4162f138ef5ab5ec9429b3.png"
                     alt="Generated Photo">
                 </div>
               </div>
@@ -150,7 +150,7 @@
                   </svg>
                 </div>
                 <div class="generated-image">
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/text-to-image.png"
+                  <img src="/downloaded_images/a0b2013e8ce553faf5c9f4e9aad44e8a.png"
                     alt="Generated Food">
                 </div>
               </div>
@@ -170,13 +170,13 @@
             </div>
             <div class="tool-content">
               <div class="character-grid">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png"
+                <img src="/downloaded_images/aa354bc214271b7bd0891d87e901d4d6.png"
                   alt="Character 1">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png"
+                <img src="/downloaded_images/aa354bc214271b7bd0891d87e901d4d6.png"
                   alt="Character 2">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png"
+                <img src="/downloaded_images/aa354bc214271b7bd0891d87e901d4d6.png"
                   alt="Character 3">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png"
+                <img src="/downloaded_images/aa354bc214271b7bd0891d87e901d4d6.png"
                   alt="Character 4">
               </div>
             </div>
@@ -196,7 +196,7 @@
             <div class="tool-content">
               <div class="video-demo">
                 <div class="video-preview">
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-video.png"
+                  <img src="/downloaded_images/4a8b43a258734524656cdfed09240624.png"
                     alt="Video Preview">
                   <div class="play-button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="white"
@@ -207,7 +207,7 @@
                   </div>
                 </div>
                 <div class="video-frames">
-                  <img src="https://placeholder.pics/svg/200x60/CCCCCC/666666-CCCCCC/frames" alt="Video Frames">
+                  <img src="/downloaded_images/165dd59e80dd395e5cb0d6ee989af7c5.svg" alt="Video Frames">
                 </div>
               </div>
             </div>
@@ -228,7 +228,7 @@
             <div class="tool-content">
               <div class="demo-container">
                 <div class="before-image">
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/insert-object.png" alt="Dog">
+                  <img src="/downloaded_images/5688b96812e55548ca80f2b457759c0e.png" alt="Dog">
                 </div>
                 <div class="transform-arrow">
                   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
@@ -240,7 +240,7 @@
                 </div>
 
                 <div class="after-image">
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/insert-object.png"
+                  <img src="/downloaded_images/5688b96812e55548ca80f2b457759c0e.png"
                     alt="Dog with Hat">
                 </div>
               </div>
@@ -259,7 +259,7 @@
             </div>
             <div class="tool-content">
               <div class="eraser-demo">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/ai-eraser.png" alt="Dog with Eraser">
+                <img src="/downloaded_images/572e3ca191d1da1af6aa6fe8f06d3a77.png" alt="Dog with Eraser">
                 <div class="eraser-circle">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -287,7 +287,7 @@
             </div>
             <div class="tool-content">
               <div class="expand-demo">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/expand.png" alt="Portrait">
+                <img src="/downloaded_images/67e97348fd18b7bc4c74c40ec1cf76b8.png" alt="Portrait">
                 <div class="expand-arrows">
                   <div class="arrow left">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -326,7 +326,7 @@
             <div class="tool-content">
               <div class="enhance-demo">
                 <div class="split-image">
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/enhance.png"
+                  <img src="/downloaded_images/8fde87c2cd358c1142568b1e96f98fb2.png"
                     alt="Pixelated vs Enhanced">
                   <div class="split-line"></div>
                 </div>
@@ -352,16 +352,16 @@
       <section class="feature-section">
         <div class="feature-container">
           <div class="feature-image">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline=""
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline=""
               autoplay="" loop="" muted="" data-v-5f31b5ed="">
-              <source src="https://static.dzine.ai/videos/AI%2BPhoto%2BFilter1.mp4" type="video/mp4" data-v-5f31b5ed="">
+              <source src="/downloaded_images/1723d78d1dcdd3f9992ccb137ee22899.mp4" type="video/mp4" data-v-5f31b5ed="">
             </video>
 
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI 照片滤镜</h2>
             <p class="feature-description">
-              使用我们的 <strong>AI 滤镜</strong> 将您的肖像或照片转换为卡通。siyan（前身为 Stylar
+              使用我们的 <strong>AI 滤镜</strong> 将您的肖像或照片转换为卡通。Siyan（前身为 Stylar
               AI）可以轻松地在生成艺术中保留您的照片细节和角色。
             </p>
             <a href="#" class="feature-button">转换您的照片风格</a>
@@ -372,16 +372,16 @@
       <section class="feature-section feature-section-reverse">
         <div class="feature-container">
           <div class="feature-image feature-image-colored">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline=""
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline=""
               autoplay="" loop="" muted="" data-v-5f31b5ed="">
-              <source src="https://static.dzine.ai/videos/Combine+Images+with+AI.mp4" type="video/mp4"
+              <source src="/downloaded_images/007d2cabdc49a60f038ffc7521d68b4d.mp4" type="video/mp4"
                 data-v-5f31b5ed="">
             </video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">用 AI 组合图像</h2>
             <p class="feature-description">
-              生成性地将不同的元素合并成一个完整的图像，并使它们全部风格匹配。siyan（前身为 Stylar
+              生成性地将不同的元素合并成一个完整的图像，并使它们全部风格匹配。Siyan（前身为 Stylar
               AI）提供世界上最好的 <strong>AI 图像组合器</strong>。
             </p>
             <a href="#" class="feature-button">混合您的图像</a>
@@ -393,15 +393,15 @@
       <section class="feature-section">
         <div class="feature-container">
           <div class="feature-image">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline=""
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline=""
               autoplay="" loop="" muted="" data-v-5f31b5ed="">
-              <source src="https://static.dzine.ai/videos/Remove+Background.mp4" type="video/mp4" data-v-5f31b5ed="">
+              <source src="/downloaded_images/b9797ecc51e7eae3474d37f804cdd9b7.mp4" type="video/mp4" data-v-5f31b5ed="">
             </video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI 背景移除</h2>
             <p class="feature-description">
-              使用我们的 <strong>AI 背景移除器</strong> 精确地移除图像背景。siyan（前身为 Stylar
+              使用我们的 <strong>AI 背景移除器</strong> 精确地移除图像背景。Siyan（前身为 Stylar
               AI）保留了头发和透明元素等精细细节。
             </p>
             <a href="#" class="feature-button">即时移除背景</a>
@@ -412,15 +412,15 @@
       <section class="feature-section feature-section-reverse">
         <div class="feature-container">
           <div class="feature-image feature-image-colored" style="--feature-bg-color: #D1C4E9;">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline=""
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline=""
               autoplay="" loop="" muted="" data-v-5f31b5ed="">
-              <source src="https://static.dzine.ai/videos/Remove+Background.mp4" type="video/mp4" data-v-5f31b5ed="">
+              <source src="/downloaded_images/b9797ecc51e7eae3474d37f804cdd9b7.mp4" type="video/mp4" data-v-5f31b5ed="">
             </video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI 图像增强器</h2>
             <p class="feature-description">
-              使用我们的 <strong>AI 图像增强器</strong> 将低质量图像转换为晶莹剔透的高分辨率视觉效果。siyan（前身为 Stylar
+              使用我们的 <strong>AI 图像增强器</strong> 将低质量图像转换为晶莹剔透的高分辨率视觉效果。Siyan（前身为 Stylar
               AI）使用先进的放大技术恢复细节。
             </p>
             <a href="#" class="feature-button">增强您的图像</a>
@@ -432,9 +432,9 @@
       <section class="feature-section">
         <div class="feature-container">
           <div class="feature-image">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline=""
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline=""
               autoplay="" loop="" muted="" data-v-5f31b5ed="">
-              <source src="https://static.dzine.ai/videos/text-effect-logo-1.mp4" type="video/mp4" data-v-5f31b5ed="">
+              <source src="/downloaded_images/9c84291bb7eb0925593968a200f8ae77.mp4" type="video/mp4" data-v-5f31b5ed="">
             </video>
           </div>
           <div class="feature-content">
@@ -451,15 +451,15 @@
       <section class="feature-section feature-section-reverse">
         <div class="feature-container">
           <div class="feature-image feature-image-colored" style="--feature-bg-color: #BBDEFB;">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline=""
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline=""
               autoplay="" loop="" muted="" data-v-5f31b5ed="">
-              <source src="https://static.dzine.ai/videos/generative-object-1.mp4" type="video/mp4" data-v-5f31b5ed="">
+              <source src="/downloaded_images/b4a278ff50a8530ed308f50a0e194638.mp4" type="video/mp4" data-v-5f31b5ed="">
             </video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI 图像扩展</h2>
             <p class="feature-description">
-              使用我们的 <strong>AI 图像扩展</strong> 工具将您的图像扩展到其原始边界之外。siyan（前身为 Stylar
+              使用我们的 <strong>AI 图像扩展</strong> 工具将您的图像扩展到其原始边界之外。Siyan（前身为 Stylar
               AI）无缝扩展您的图像，同时保持视觉一致性。
             </p>
             <a href="#" class="feature-button">扩展您的画布</a>
@@ -469,7 +469,7 @@
       </section>
     </div>
     <section class="features">
-      <h2 class="section-title">为什么选择 siyan.ai？</h2>
+      <h2 class="section-title">为什么选择 Siyan.ai？</h2>
 
       <div class="features-grid">
         <div class="feature-card">
@@ -580,8 +580,8 @@
     </section>
     <section class="use-cases-section">
       <div class="container">
-        <h2 class="use-cases-title">使用 siyan AI 图像编辑器的最佳方式</h2>
-        <p class="use-cases-subtitle">专业人士用 siyan（前身为 Stylar AI）创造了什么？</p>
+        <h2 class="use-cases-title">使用 Siyan AI 图像编辑器的最佳方式</h2>
+        <p class="use-cases-subtitle">专业人士用 Siyan（前身为 Stylar AI）创造了什么？</p>
 
         <div class="use-cases-tabs">
           <button v-for="(tab, index) in tabs" :key="index" :class="['tab-button', { active: activeTab === index }]"
@@ -633,7 +633,7 @@
       <div class="testimonials-grid">
         <div class="testimonial-card">
           <div class="testimonial-content">
-            "siyan.ai 完全改变了我们的创意工作流程。我们现在可以在几分钟内制作出过去需要数小时才能完成的内容。"
+            "Siyan.ai 完全改变了我们的创意工作流程。我们现在可以在几分钟内制作出过去需要数小时才能完成的内容。"
           </div>
           <div class="testimonial-author">
             <div class="testimonial-avatar"></div>
@@ -646,7 +646,7 @@
 
         <div class="testimonial-card">
           <div class="testimonial-content">
-            "我用 siyan.ai 创作的图像质量令人难以置信。就像拥有一个24/7待命的专业设计师。"
+            "我用 Siyan.ai 创作的图像质量令人难以置信。就像拥有一个24/7待命的专业设计师。"
           </div>
           <div class="testimonial-author">
             <div class="testimonial-avatar"></div>
@@ -659,7 +659,7 @@
 
         <div class="testimonial-card">
           <div class="testimonial-content">
-            "我们减少了70%的设计成本，同时增加了产量。siyan.ai 的投资回报率简直无与伦比。"
+            "我们减少了70%的设计成本，同时增加了产量。Siyan.ai 的投资回报率简直无与伦比。"
           </div>
           <div class="testimonial-author">
             <div class="testimonial-avatar"></div>
@@ -676,14 +676,14 @@
 
     <section class="cta">
       <h2 class="cta-title">准备好改变您的视觉内容了吗？</h2>
-      <p class="cta-subtitle">立即加入数千名创作者和企业，开始使用 siyan.ai</p>
+      <p class="cta-subtitle">立即加入数千名创作者和企业，开始使用 Siyan.ai</p>
       <button class="btn-primary btn-large">免费开始创作</button>
       <p class="cta-note">无需信用卡</p>
     </section>
 
     <div class="pre-footer">
       <div class="container">
-        <h2 class="pre-footer-title">在 siyan 中创建您的第一个项目</h2>
+        <h2 class="pre-footer-title">在 Siyan 中创建您的第一个项目</h2>
         <button class="btn-primary btn-large">免费试用</button>
       </div>
     </div>
@@ -693,7 +693,7 @@
         <div class="footer-top">
           <div class="footer-brand">
             <a href="#" class="footer-logo">
-              <span class="logo-text">siyan</span>
+              <span class="logo-text">Siyan</span>
               <span class="logo-beta">BETA</span>
             </a>
             <p class="footer-tagline">
@@ -806,7 +806,7 @@
         </div>
         <div class="footer-bottom">
           <p class="footer-copyright">
-            © 2024 siyan.ai 保留所有权利。
+            © 2024 Siyan.ai 保留所有权利。
           </p>
         </div>
       </div>

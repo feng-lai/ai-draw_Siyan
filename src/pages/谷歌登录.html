@@ -1,0 +1,35 @@
+<!--
+生成 HTML 代码https://developers.google.com/identity/gsi/web/tools/configurator?hl=zh-cn
+客户端id 682733356459-dicd4vmvs2nrfuqcv6qtmeja3vei8suu.apps.googleusercontent.com
+-->
+<div id="g_id_onload"
+     data-client_id="682733356459-dicd4vmvs2nrfuqcv6qtmeja3vei8suu.apps.googleusercontent.com"
+     data-context="signin"
+     data-ux_mode="popup"
+     data-callback="back"
+     data-auto_select="true"
+     data-itp_support="true">
+</div>
+
+<div class="g_id_signin"
+     data-type="standard"
+     data-shape="pill"
+     data-theme="outline"
+     data-text="signin_with"
+     data-size="large"
+     data-logo_alignment="left">
+</div>
+<script src="https://accounts.google.com/gsi/client" async></script>
+<script>
+    function back(arg) {
+        let jwt = arg.credential;
+        let userInfoUrl = 'https://aidraw.maiiepay.com/api/login?credential=' + encodeURIComponent(jwt);
+        fetch(userInfoUrl).then(response => {
+            console.log(response.json())
+        })
+        .catch(error => {
+            console.error('There has been a problem with your fetch operation:', error);
+        });
+    }
+
+</script>

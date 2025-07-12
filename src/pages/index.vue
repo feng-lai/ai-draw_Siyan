@@ -3,7 +3,7 @@
     <nav class="navbar">
       <div class="navbar-left">
         <a href="#" class="logo">
-          siyan<span class="beta">BETA</span>
+          Siyan<span class="beta">BETA</span>
         </a>
 
         <div class="nav-links">
@@ -120,7 +120,7 @@
               <div class="demo-container">
                 <div class="before-image">
                   <span class="tag">Before</span>
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-image.png" alt="Sketch">
+                  <img src="/downloaded_images/f6d25e5fbd4162f138ef5ab5ec9429b3.png" alt="Sketch">
                 </div>
                 <div class="transform-arrow">
                   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
@@ -132,7 +132,7 @@
                 </div>
                 <div class="after-image">
                   <span class="tag">After</span>
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-image.png"
+                  <img src="/downloaded_images/f6d25e5fbd4162f138ef5ab5ec9429b3.png"
                     alt="Generated Photo">
                 </div>
               </div>
@@ -165,7 +165,7 @@
                   </svg>
                 </div>
                 <div class="generated-image">
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/text-to-image.png"
+                  <img src="/downloaded_images/a0b2013e8ce553faf5c9f4e9aad44e8a.png"
                     alt="Generated Food">
                 </div>
               </div>
@@ -185,13 +185,13 @@
             </div>
             <div class="tool-content">
               <div class="character-grid">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png"
+                <img src="/downloaded_images/aa354bc214271b7bd0891d87e901d4d6.png"
                   alt="Character 1">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png"
+                <img src="/downloaded_images/aa354bc214271b7bd0891d87e901d4d6.png"
                   alt="Character 2">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png"
+                <img src="/downloaded_images/aa354bc214271b7bd0891d87e901d4d6.png"
                   alt="Character 3">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/consistent-character.png"
+                <img src="/downloaded_images/aa354bc214271b7bd0891d87e901d4d6.png"
                   alt="Character 4">
               </div>
             </div>
@@ -211,7 +211,7 @@
             <div class="tool-content">
               <div class="video-demo">
                 <div class="video-preview">
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/image-to-video.png"
+                  <img src="/downloaded_images/4a8b43a258734524656cdfed09240624.png"
                     alt="Video Preview">
                   <div class="play-button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="white"
@@ -222,7 +222,7 @@
                   </div>
                 </div>
                 <div class="video-frames">
-                  <img src="https://placeholder.pics/svg/200x60/CCCCCC/666666-CCCCCC/frames" alt="Video Frames">
+                  <img src="/downloaded_images/165dd59e80dd395e5cb0d6ee989af7c5.jpg" alt="Video Frames">
                 </div>
               </div>
             </div>
@@ -243,7 +243,7 @@
             <div class="tool-content">
               <div class="demo-container">
                 <div class="before-image">
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/insert-object.png" alt="Dog">
+                  <img src="/downloaded_images/5688b96812e55548ca80f2b457759c0e.png" alt="Dog">
                 </div>
                 <div class="transform-arrow">
                   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
@@ -255,7 +255,7 @@
                 </div>
 
                 <div class="after-image">
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/insert-object.png"
+                  <img src="/downloaded_images/5688b96812e55548ca80f2b457759c0e.png"
                     alt="Dog with Hat">
                 </div>
               </div>
@@ -274,7 +274,7 @@
             </div>
             <div class="tool-content">
               <div class="eraser-demo">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/ai-eraser.png" alt="Dog with Eraser">
+                <img src="/downloaded_images/572e3ca191d1da1af6aa6fe8f06d3a77.png" alt="Dog with Eraser">
                 <div class="eraser-circle">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -302,7 +302,7 @@
             </div>
             <div class="tool-content">
               <div class="expand-demo">
-                <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/expand.png" alt="Portrait">
+                <img src="/downloaded_images/67e97348fd18b7bc4c74c40ec1cf76b8.png" alt="Portrait">
                 <div class="expand-arrows">
                   <div class="arrow left">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -341,7 +341,7 @@
             <div class="tool-content">
               <div class="enhance-demo">
                 <div class="split-image">
-                  <img src="https://static.dzine.ai/tools/dashboard/ai-tools-cover/enhance.png"
+                  <img src="/downloaded_images/8fde87c2cd358c1142568b1e96f98fb2.png"
                     alt="Pixelated vs Enhanced">
                   <div class="split-line"></div>
                 </div>
@@ -367,16 +367,16 @@
       <section class="feature-section">
         <div class="feature-container">
           <div class="feature-image">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline=""
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline=""
               autoplay="" loop="" muted="" data-v-5f31b5ed="">
-              <source src="https://static.dzine.ai/videos/AI%2BPhoto%2BFilter1.mp4" type="video/mp4" data-v-5f31b5ed="">
+              <source src="/downloaded_images/1723d78d1dcdd3f9992ccb137ee22899.mp4" type="video/mp4" data-v-5f31b5ed="">
             </video>
 
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI Photo Filter</h2>
             <p class="feature-description">
-              Transform your portrait or photo to cartoon with our <strong>AI Filter</strong>. siyan (formerly Stylar
+              Transform your portrait or photo to cartoon with our <strong>AI Filter</strong>. Siyan (formerly Stylar
               AI) makes it easy to keep your photo details and characters in generative art.
             </p>
             <a href="#" class="feature-button">Transform your photo style</a>
@@ -387,12 +387,12 @@
       <section class="feature-section feature-section-reverse">
         <div class="feature-container">
           <div class="feature-image feature-image-colored">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.dzine.ai/videos/Combine+Images+with+AI.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="/downloaded_images/007d2cabdc49a60f038ffc7521d68b4d.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">Combine Images with AI</h2>
             <p class="feature-description">
-              Generatively merge different elements into one complete image, and make them all match in style. siyan
+              Generatively merge different elements into one complete image, and make them all match in style. Siyan
               (formerly Stylar AI) offers the best <strong>AI Image Combiner</strong> in the world.
             </p>
             <a href="#" class="feature-button">Mix your images</a>
@@ -404,13 +404,13 @@
       <section class="feature-section">
         <div class="feature-container">
           <div class="feature-image">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.dzine.ai/videos/Remove+Background.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="/downloaded_images/b9797ecc51e7eae3474d37f804cdd9b7.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI Background Removal</h2>
             <p class="feature-description">
               Remove backgrounds from your images with perfect precision using our <strong>AI Background
-                Remover</strong>. siyan (formerly Stylar AI) preserves fine details like hair and transparent elements.
+                Remover</strong>. Siyan (formerly Stylar AI) preserves fine details like hair and transparent elements.
             </p>
             <a href="#" class="feature-button">Remove backgrounds instantly</a>
           </div>
@@ -420,13 +420,13 @@
       <section class="feature-section feature-section-reverse">
         <div class="feature-container">
           <div class="feature-image feature-image-colored" style="--feature-bg-color: #D1C4E9;">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.dzine.ai/videos/Remove+Background.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="/downloaded_images/b9797ecc51e7eae3474d37f804cdd9b7.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI Image Enhancer</h2>
             <p class="feature-description">
               Transform low-quality images into crystal-clear, high-resolution visuals with our <strong>AI Image
-                Enhancer</strong>. siyan (formerly Stylar AI) uses advanced upscaling technology to restore details.
+                Enhancer</strong>. Siyan (formerly Stylar AI) uses advanced upscaling technology to restore details.
             </p>
             <a href="#" class="feature-button">Enhance your images</a>
           </div>
@@ -437,7 +437,7 @@
       <section class="feature-section">
         <div class="feature-container">
           <div class="feature-image">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.dzine.ai/videos/text-effect-logo-1.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="/downloaded_images/9c84291bb7eb0925593968a200f8ae77.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI Text to Image</h2>
@@ -453,13 +453,13 @@
       <section class="feature-section feature-section-reverse">
         <div class="feature-container">
           <div class="feature-image feature-image-colored" style="--feature-bg-color: #BBDEFB;">
-            <video class="vi" poster="https://static.dzine.ai/assets/pre_load-dz-800-400.jpeg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="https://static.dzine.ai/videos/generative-object-1.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
+            <video class="vi" poster="/downloaded_images/d501e0ebc2c10ec9dfc39a2f3eb71d04.jpg" playsinline="" autoplay="" loop="" muted="" data-v-5f31b5ed=""><source src="/downloaded_images/b4a278ff50a8530ed308f50a0e194638.mp4" type="video/mp4" data-v-5f31b5ed=""></video>
           </div>
           <div class="feature-content">
             <h2 class="feature-title">AI Image Expansion</h2>
             <p class="feature-description">
               Expand your images beyond their original boundaries with our <strong>AI Image Expansion</strong> tool.
-              siyan (formerly Stylar AI) seamlessly extends your images while maintaining visual consistency.
+              Siyan (formerly Stylar AI) seamlessly extends your images while maintaining visual consistency.
             </p>
             <a href="#" class="feature-button">Expand your canvas</a>
           </div>
@@ -468,7 +468,7 @@
       </section>
     </div>
     <section class="features">
-      <h2 class="section-title">Why Choose siyan.ai?</h2>
+      <h2 class="section-title">Why Choose Siyan.ai?</h2>
 
       <div class="features-grid">
         <div class="feature-card">
@@ -579,8 +579,8 @@
     </section>
     <section class="use-cases-section">
       <div class="container">
-        <h2 class="use-cases-title">Best Ways to Use siyan AI Image Editor</h2>
-        <p class="use-cases-subtitle">What do the pros create with siyan (formerly Stylar AI)?</p>
+        <h2 class="use-cases-title">Best Ways to Use Siyan AI Image Editor</h2>
+        <p class="use-cases-subtitle">What do the pros create with Siyan (formerly Stylar AI)?</p>
 
         <div class="use-cases-tabs">
           <button v-for="(tab, index) in tabs" :key="index" :class="['tab-button', { active: activeTab === index }]"
@@ -632,7 +632,7 @@
       <div class="testimonials-grid">
         <div class="testimonial-card">
           <div class="testimonial-content">
-            "siyan.ai has completely transformed our creative workflow. We're producing content in minutes that used to
+            "Siyan.ai has completely transformed our creative workflow. We're producing content in minutes that used to
             take hours."
           </div>
           <div class="testimonial-author">
@@ -646,7 +646,7 @@
 
         <div class="testimonial-card">
           <div class="testimonial-content">
-            "The quality of images I can create with siyan.ai is incredible. It's like having a professional designer on
+            "The quality of images I can create with Siyan.ai is incredible. It's like having a professional designer on
             call 24/7."
           </div>
           <div class="testimonial-author">
@@ -660,7 +660,7 @@
 
         <div class="testimonial-card">
           <div class="testimonial-content">
-            "We've cut our design costs by 70% while increasing our output. The ROI with siyan.ai is simply unmatched."
+            "We've cut our design costs by 70% while increasing our output. The ROI with Siyan.ai is simply unmatched."
           </div>
           <div class="testimonial-author">
             <div class="testimonial-avatar"></div>
@@ -677,14 +677,14 @@
 
     <section class="cta">
       <h2 class="cta-title">Ready to Transform Your Visual Content?</h2>
-      <p class="cta-subtitle">Join thousands of creators and businesses using siyan.ai today</p>
+      <p class="cta-subtitle">Join thousands of creators and businesses using Siyan.ai today</p>
       <button class="btn-primary btn-large">Start Creating for Free</button>
       <p class="cta-note">No credit card required</p>
     </section>
 
     <div class="pre-footer">
       <div class="container">
-        <h2 class="pre-footer-title">Create Your First Project in siyan</h2>
+        <h2 class="pre-footer-title">Create Your First Project in Siyan</h2>
         <button class="btn-primary btn-large">Start for Free</button>
       </div>
     </div>
@@ -694,7 +694,7 @@
         <div class="footer-top">
           <div class="footer-brand">
             <a href="#" class="footer-logo">
-              <span class="logo-text">siyan</span>
+              <span class="logo-text">Siyan</span>
               <span class="logo-beta">BETA</span>
             </a>
             <p class="footer-tagline">
@@ -807,7 +807,7 @@
         </div>
         <div class="footer-bottom">
           <p class="footer-copyright">
-            © 2024 siyan.ai All rights reserved.
+            © 2024 Siyan.ai All rights reserved.
           </p>
         </div>
       </div>
@@ -2766,6 +2766,7 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  max-height: 500px;
   gap: 4rem;
 }
 
@@ -2775,14 +2776,16 @@ body {
 
 .feature-image {
   flex: 1;
-  min-width: 300px;
+  min-width: 500px;
   border-radius: 16px;
+  transform: scale(1,0.5);
   overflow: hidden;
 }
 
 .feature-image img {
   width: 100%;
   height: auto;
+  max-height: 100px;
   display: block;
   border-radius: 16px;
   transition: transform 0.5s ease;

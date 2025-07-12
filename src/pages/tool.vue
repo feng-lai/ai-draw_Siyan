@@ -146,8 +146,8 @@
           <div class="tool-panel-content" v-if="activeTool === 'Text to Image'">
             <div class="model-selector">
               <div class="model-preview">
-                <img src="https://placeholder.pics/svg/40x40/DEDEDE/555555-DEDEDE/FX" alt="FLUX.1" class="model-icon">
-                <span>siyan General</span>
+                <img src="/downloaded_images/548d9af3c049cd58fec1abe30b9f0b13.svg" alt="FLUX.1" class="model-icon">
+                <span>Siyan General</span>
               </div>
               <button class="model-toggle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
@@ -242,7 +242,7 @@
           <div class="tool-panel-content" v-if="activeTool === 'Image to Image'">
             <div class="model-selector">
               <div class="model-preview">
-                <img src="https://placeholder.pics/svg/40x40/DEDEDE/555555-DEDEDE/PS" alt="Playful Seaside" class="model-icon">
+                <img src="/downloaded_images/e368a3adac35df8bde6f017325b4c24a.svg" alt="Playful Seaside" class="model-icon">
                 <span>Playful Seaside</span>
               </div>
               <button class="model-toggle">
@@ -369,7 +369,7 @@
     
             <div class="character-options">
               <div class="option-card">
-                <img src="https://placeholder.pics/svg/100x100/FFCC33/333333-FFCC33/character-grid" alt="Generate Images">
+                <img src="/downloaded_images/57bb54264dc2e20bf57d0611e7fcec76.svg" alt="Generate Images">
                 <div class="option-info">
                   <h3>Generate Images</h3>
                   <p>With your character</p>
@@ -377,7 +377,7 @@
               </div>
               
               <div class="option-card">
-                <img src="https://placeholder.pics/svg/100x100/FFCC33/333333-FFCC33/insert-character" alt="Insert Character">
+                <img src="/downloaded_images/471b36f51134fd58568a9a91e561be6d.svg" alt="Insert Character">
                 <div class="emoji-icon">😀</div>
                 <div class="option-info">
                   <h3>Insert Character</h3>
@@ -386,7 +386,7 @@
               </div>
               
               <div class="option-card">
-                <img src="https://placeholder.pics/svg/100x100/FFCC33/333333-FFCC33/character-sheet" alt="Character Sheet">
+                <img src="/downloaded_images/0f2594efe3541f4482108bf2383311d3.svg" alt="Character Sheet">
                 <div class="option-info">
                   <h3>Character Sheet</h3>
                   <p>From prompt</p>
@@ -454,7 +454,7 @@
                 </div>
                 <div class="upload-thumbnails" v-else>
                   <div v-for="n in 3" :key="n" class="upload-thumbnail">
-                    <img src="https://placeholder.pics/svg/80x80/DEDEDE/555555-DEDEDE/image" alt="Recent upload">
+                    <img src="/downloaded_images/f6819e8bcf35d2bbf6fb2a959c35369b.svg" alt="Recent upload">
                   </div>
                 </div>
               </div>
@@ -519,7 +519,7 @@
                   <label for="model-upload" class="upload-button model-button">3D Model</label>
                   <span class="file-types">.GLB, .GLTF, .OBJ, .3DS, .DAE, .KMZ, .FBX or .STL</span>
                 </div>
-                <div class="watermark">siyan</div>
+                <div class="watermark">Siyan</div>
               </div>
             </div>
           </div>
@@ -535,7 +535,7 @@
     
             <div class="no-results">
               <div class="result-icon">
-                <img src="https://placeholder.pics/svg/100x100/DEDEDE/555555-DEDEDE/no-results" alt="No Results">
+                <img src="/downloaded_images/99bd765e115f7f2d158dbeb6a63b7710.svg" alt="No Results">
               </div>
               <h4>No Results Available</h4>
             </div>
@@ -553,7 +553,7 @@
             <div class="layer-list">
               <div class="layer-item">
                 <div class="layer-thumbnail">
-                  <img src="https://placeholder.pics/svg/50x50/DEDEDE/555555-DEDEDE/bg" alt="Background Layer">
+                  <img src="/downloaded_images/8e4458aa5c9500405e6d3d4e96479931.svg" alt="Background Layer">
                 </div>
                 <div class="layer-info">
                   <h4>Background</h4>
@@ -563,10 +563,10 @@
             </div>
           </div>
     
-          <!-- siyan Assistant - Now collapsed by default, expands on click -->
+          <!-- Siyan Assistant - Now collapsed by default, expands on click -->
           <div class="assistant-panel" :class="{ 'expanded': assistantExpanded }">
             <div class="assistant-header" @click="toggleAssistant">
-              <span>siyan Assistant</span>
+              <span>Siyan Assistant</span>
               <button class="minimize-button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path v-if="assistantExpanded" d="M18 15 12 9l-6 6"/>
@@ -588,7 +588,7 @@
                   </div>
                   <div class="option-content">
                     <h4>Join Discord</h4>
-                    <p>Join a vibrant community and interact with siyan experts.</p>
+                    <p>Join a vibrant community and interact with Siyan experts.</p>
                   </div>
                 </div>
     
@@ -608,7 +608,7 @@
                   </div>
                   <div class="option-content">
                     <h4>Prompt Assistant</h4>
-                    <p>Start chatting with our siyan prompt assistant now!</p>
+                    <p>Start chatting with our Siyan prompt assistant now!</p>
                   </div>
                 </div>
               </div>
