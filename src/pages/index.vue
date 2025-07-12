@@ -3,7 +3,7 @@
     <nav class="navbar">
       <div class="navbar-left">
         <a href="#" class="logo">
-          Siyan<span class="beta">BETA</span>
+          S<span style="color: yellow;">i</span>yan<span class="beta">BETA</span>
         </a>
 
         <div class="nav-links">
@@ -33,7 +33,7 @@
             <option value="en">English</option>
             <option value="zh-cn">中文</option>
             <option value="es">Español</option>
-            <option value="pt">Português</option>
+            <option value="ar">العربية</option>
           </select>
         </div>
 
@@ -892,18 +892,20 @@ export default {
           console.error('登录失败:', error);
         });
     },
-    changeLanguage(lang) {
-      console.log('Switching to language:', lang);
-      if (lang === 'zh-cn') {
-        window.location.href = '/#/cn';
-      } else if (lang === 'es') {
-        window.location.href = '/#/es.vue';
-      } else if (lang === 'pt') {
-        window.location.href = '/#/pt.vue';
-      } else {
-        window.location.href = '/#/';
-      }
-    },
+     changeLanguage(lang) {
+        console.log('Switching to language:', lang);
+        if (lang === 'zh-cn') {
+          window.location.href = '/#/cn';
+        } else if (lang === 'es') {
+          window.location.href = '/#/es.vue';
+        } else if (lang === 'pt') {
+          window.location.href = '/#/pt.vue';
+        } else if (lang === 'ar') { // Added Arabic language redirection
+          window.location.href = '/#/ar.vue';
+        } else {
+          window.location.href = '/#/';
+        }
+      },
     
     setActiveTab(index) {
       this.activeTab = index;
