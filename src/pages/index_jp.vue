@@ -895,7 +895,7 @@ export default {
         });
     },
      changeLanguage(lang) {
-        console.log('Switching to language:', lang);
+                console.log('Switching to language:', lang);
         if (lang === 'zh-cn') {
           window.location.href = '/#/cn';
         } else if (lang === 'es') {
@@ -904,6 +904,8 @@ export default {
           window.location.href = '/#/pt.vue';
         } else if (lang === 'ar') { // Added Arabic language redirection
           window.location.href = '/#/ar.vue';
+        } else if (lang === 'jp') { // Added Arabic language redirection
+          window.location.href = '/#/jp.vue';
         } else {
           window.location.href = '/#/';
         }

@@ -30,9 +30,11 @@
          
             <div class="language-switcher">
           <select @change="changeLanguage($event.target.value)">
-            <option value="en">English</option>
             <option value="zh-cn">中文</option>
+            <option value="en">English</option>
             <option value="es">Español</option>
+            <option value="pt">Português</option>
+            <option value="jp">日本語</option>
             <option value="ar">العربية</option>
           </select>
         </div>
@@ -922,7 +924,7 @@
           });
       },
       changeLanguage(lang) {
-        console.log('Switching to language:', lang);
+                console.log('Switching to language:', lang);
         if (lang === 'zh-cn') {
           window.location.href = '/#/cn';
         } else if (lang === 'es') {
@@ -931,6 +933,8 @@
           window.location.href = '/#/pt.vue';
         } else if (lang === 'ar') { // Added Arabic language redirection
           window.location.href = '/#/ar.vue';
+        } else if (lang === 'jp') { // Added Arabic language redirection
+          window.location.href = '/#/jp.vue';
         } else {
           window.location.href = '/#/';
         }

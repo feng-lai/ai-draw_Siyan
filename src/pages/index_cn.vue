@@ -33,6 +33,8 @@
             <option value="en">English</option>
             <option value="es">Español</option>
             <option value="pt">Português</option>
+            <option value="jp">日本語</option>
+            <option value="ar">العربية</option>
           </select>
         </div>
         <div id="g_id_onload" data-client_id="682733356459-dicd4vmvs2nrfuqcv6qtmeja3vei8suu.apps.googleusercontent.com"
@@ -892,7 +894,7 @@ export default {
         });
     },
      changeLanguage(lang) {
-        console.log('Switching to language:', lang);
+                console.log('Switching to language:', lang);
         if (lang === 'zh-cn') {
           window.location.href = '/#/cn';
         } else if (lang === 'es') {
@@ -901,6 +903,8 @@ export default {
           window.location.href = '/#/pt.vue';
         } else if (lang === 'ar') { // Added Arabic language redirection
           window.location.href = '/#/ar.vue';
+        } else if (lang === 'jp') { // Added Arabic language redirection
+          window.location.href = '/#/jp.vue';
         } else {
           window.location.href = '/#/';
         }
