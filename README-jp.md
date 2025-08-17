@@ -66,7 +66,7 @@
    ```bash
    git clone https://github.com/yourusername/ai-painting.git
    cd ai-painting
-````
+
 
 2. **バックエンド依存関係をインストール**
 
