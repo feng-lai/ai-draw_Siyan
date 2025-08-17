@@ -50,13 +50,14 @@ This project enables both **Text-to-Image (文生图)** and **Image-to-Image (�
 ---
 
 ## 📂 Project Structure (Simplified)
+```
 .
 ├── backend/           # Python server and AI inference logic
 ├── frontend/          # Vue.js web interface
 ├── models/            # Gemini model configurations
 ├── static/            # Example images, assets
 └── README.md
-
+```
 
 
 ---
@@ -67,7 +68,7 @@ This project enables both **Text-to-Image (文生图)** and **Image-to-Image (�
    ```bash
    git clone https://github.com/yourusername/ai-painting.git
    cd ai-painting
-````
+
 
 2. **Install backend dependencies**
 
